@@ -26,7 +26,7 @@ class Song
     new_song = Song.new
     new_song.name = name
     new_song.save
-    new_song
+    return new_song
   end
   
   
@@ -52,7 +52,7 @@ class Song
     
   #  puts find
     
-    if(find == false )
+    if(find == nil )
       
       result = self.create_by_name name
      
