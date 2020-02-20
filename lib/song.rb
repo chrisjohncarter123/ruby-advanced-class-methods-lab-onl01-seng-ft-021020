@@ -39,7 +39,7 @@ class Song
       return @@all.find{ |song| song.name == name }
     end
     
-    return a
+    return nil
   end
   
   
